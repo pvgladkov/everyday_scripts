@@ -1,0 +1,2 @@
+# gpu monitoring
+watch -n1 nvidia-smi --query-gpu=utilization.gpu,utilization.memory,memory.used,memory.free,memory.total --format=csv
